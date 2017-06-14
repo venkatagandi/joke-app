@@ -4,7 +4,7 @@ This is a sample of Angular 2 application which include bootstrap reference.
 Please follow the below steps to run the code.
 
 ```javascript
-    git clone  <giturl>
+    git clone -b joke_change <giturl>
     npm install --cache-min Infinity
     ng s
 ```
