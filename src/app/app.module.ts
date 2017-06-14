@@ -5,10 +5,15 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { JokeListComponent } from './joke-list/joke-list.component';
+import { JokeFormComponent } from './joke-form/joke-form.component';
+import { JokeComponent } from './joke/joke.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    JokeListComponent,
+    JokeFormComponent,
+    JokeComponent,
     JokeListComponent
   ],
   imports: [
